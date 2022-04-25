@@ -75,9 +75,9 @@ exports.WaitingForTurn = class extends React.Component {
       <div>
         Waiting for other player...
         <br />
-        /**
-        ** Open the chat in the new tab to discuss more!
-        **/
+        {/*
+        Open the chat in the new tab to discuss more!
+        */}
       </div>
     );
   }

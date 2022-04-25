@@ -3,7 +3,7 @@ import AppViews from './views/AppViews';
 import ValidatorViews from './views/ValidatorViews';
 import MemberViews from './views/MemberViews';
 // import {renderDOM, renderView} from './views/render';
-import {renderDOM, renderView} from './views/render';
+import {renderView} from './views/render';
 import './Vote.css';
 import * as backend from './rsh/build/index.main.mjs';
 import { loadStdlib } from '@reach-sh/stdlib';
@@ -17,8 +17,8 @@ const reach = loadStdlib('ALGO');
 reach.setWalletFallback(reach.walletFallback({providerEnv: 'TestNet', MyAlgoConnect }));
 // const reach = loadStdlib(process.env);
 
-const handToInt = {'ROCK': 0, 'PAPER': 1, 'SCISSORS': 2};
-const intToOutcome = ['Bob wins!', 'Draw!', 'Alice wins!'];
+//const handToInt = {'ROCK': 0, 'PAPER': 1, 'SCISSORS': 2};
+//const intToOutcome = ['Bob wins!', 'Draw!', 'Alice wins!'];
 const {standardUnit} = reach;
 const defaults = {defaultFundAmt: '10', defaultWager: '3', standardUnit};
 

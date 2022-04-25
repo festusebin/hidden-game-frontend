@@ -52,9 +52,8 @@ exports.Done = class extends React.Component {
         Using Quantum-Voting Results:
         <br />{result || 'Unknown'}
         <br />
-          /**
-            ** If you want a NFT showing that you voted on an amendment that reached consensus within the orginization, please click this. Also contact your validator so that they can ensure a proper transfer.
-          **/
+          {/* If you want a NFT showing that you voted on an amendment that reached consensus within the orginization, please click this. Also contact your validator so that they can ensure a proper transfer.
+          */}
         </div>
 
       );
@@ -64,10 +63,8 @@ exports.Done = class extends React.Component {
           The result was:
           <br />{result || 'Unknown'}
           <br />
-        /**
-        ** If you want a NFT showing that you voted in process reaching majority vote, please click. Also contact your validator so that they can ensure a proper transfer.
-         */
-          
+        {/*If you want a NFT showing that you voted in process reaching majority vote, please click. Also contact your validator so that they can ensure a proper transfer.
+         */}
         </div>
       );}
   }
