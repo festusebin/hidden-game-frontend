@@ -83,6 +83,7 @@ const Modal = styled(posed.div(modalPoses))`
 `;
 
 function OpenModal ({ isOpen, toggle, children }) {
+  
   const ref = useRef();
 
   useOnClickOutside(ref, () => toggle(false));
