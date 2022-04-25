@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-import": "^2.26.0",
     "sass": "^1.50.1"
   }
 }
